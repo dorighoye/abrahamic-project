@@ -1,0 +1,21 @@
+/*Import the fonts used*/
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+/*Basic reset*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Custom properties*/
+:root {
+    --dark-color: #2d2c2c;
+    --orange-solid: #350a4f;
+    --orange-transparent: rgba(53, 10, 79, .7);
+    --orange-transparent-alt: rgba(53, 10, 79, .5);
+    --orange-light: #8f50fb;
+    --black-solid: #fa9e2c;
+    --gradient-color: linear-gradient(to right, var(--black-solid), var(--orange-light));
+    --gradient-color-alt: linear-gradient(to right, var(--yellow-light), var(--black-solid));
+}
